@@ -1,0 +1,121 @@
+html{
+  background-image: url("https://images.pexels.com/photos/953214/pexels-photo-953214.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940")
+}
+
+div {
+position:relative;
+}
+
+#nav {
+position:absolute;
+left:50%;top:0;
+margin-left:-375px; /* negative margin equal to half the width */
+width:750px;
+list-style:none;
+background-color: darkslategrey;
+
+}
+
+#nav li {
+float:left;
+}
+
+#nav a {
+display:block;
+text-align:center;
+width:150px; /* fixed width */
+text-decoration:none; 
+}
+
+#nav .active {
+  color:rgb(241, 162, 13); 
+}
+
+li a {
+  display: block;
+  color: whitesmoke;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+li a:hover {
+  background-color: rgb(16, 37, 230);
+}
+
+
+h1 {
+  color: whitesmoke;
+  text-align: center;
+  font-variant: small-caps;
+
+}
+
+h2 {
+  color: whitesmoke;
+  text-align: center;
+  font-variant: small-caps;
+}
+
+p {
+  font-family: verdana;
+  font-size: 20px;
+  color: whitesmoke;
+  text-align: center;
+}
+
+.container {
+  height: 100%;
+  width: 100%;
+  display: flex;
+  position: fixed;
+  align-items: center;
+  justify-content: center;
+
+}
+
+.center {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 18px;
+}
+
+#floatframe {position:relative; top:400px; left:310px; z-index:100 } 
+
+.move{
+  text-align: sticky;
+  position: relative;
+  top:380px;
+  color: snow;
+}
+
+.move2{
+  text-align: sticky;
+  position: relative;
+  top:560px;
+  color: snow;
+}
+
+.page2{
+  position: relative;
+  top:590px;
+  left:310px;
+  z-index:100
+}
+
+.pic1{
+ bottom:200px;
+ right:50px;
+}
+
+.pic2{
+ left:150px;
+}
+
+
+.pic3{
+  top: 180px;
+  left:349px;
+}
